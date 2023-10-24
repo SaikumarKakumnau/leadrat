@@ -1,0 +1,170 @@
+.app-container {
+  width: 70%;
+  background-color: aquamarine;
+  height: 90vh;
+  background-size: cover;
+}
+
+.seats-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.premium-seats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.standard-seats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-container {
+  width: 100%;
+  height: 10vh;
+  background-color: gray;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button-container {
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nonselected-button {
+  width: 100px;
+  border: 1px solid green;
+  border-radius: 5px;
+  color: green;
+  font-family: "Roboto";
+}
+
+.selected-buttton {
+  width: 100px;
+  background-color: green;
+  color: white;
+  padding: 5px;
+  font-family: "Roboto";
+  border: none;
+  border-radius: 5px;
+}
+
+.ticket-count {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.select-element {
+  width: 60px;
+  height: 30px;
+}
+
+.label-element {
+  font-family: "Roboto";
+  font-size: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.main-heading {
+  text-align: center;
+  color: grey;
+  font-family: "Roboto";
+  font-size: 30px;
+  color: white;
+}
+
+.sidebar-container {
+  width: 30%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+}
+
+.seat-visibility {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 20px;
+  align-items: center;
+  color: antiquewhite;
+}
+
+.seat-image {
+  width: 80px;
+  height: 100px;
+}
+
+.seat-selected {
+  color: green;
+  border: none;
+  background-color: transparent;
+}
+
+.seat-notavailable {
+  color: grey;
+  border: none;
+  background-color: transparent;
+}
+
+.seat-available {
+  color: white;
+  width: 100px;
+  height: 120px;
+  border: none;
+  background-color: transparent;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-my-seat-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.selection-seats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.book-button {
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+}
+
+.book-btn-container {
+  width: 100%;
+  background-color: transparent;
+  height: 5vh;
+}
